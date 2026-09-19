@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: qshield-backend
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --app-dir backend --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.0
+      - key: QUANTUM_SIMULATOR_BACKEND
+        value: qiskit_aer
+      - key: DEFAULT_SHOTS
+        value: "1000"
+      - key: DEFAULT_ANOMALY_THRESHOLD
+        value: "0.05"
+      - key: CORS_ORIGINS
+        value: "*"
