@@ -1,5 +1,5 @@
 """
-Q-SHIELD FastAPI Application
+Qubit Crew FastAPI Application
 Provides RESTful APIs for digital signatures, quantum teleportation simulation,
 explainable calculations, threat detection, and dashboard analytics.
 """
@@ -25,7 +25,7 @@ from .calculations import generate_calculation_steps
 from .storage import storage
 
 app = FastAPI(
-    title="Q-SHIELD: Quantum-Inspired Cyber Threat Detection API",
+    title="Qubit Crew: Quantum-Inspired Cyber Threat Detection API",
     description="Simulation-based cybersecurity research platform combining digital signature verification and quantum teleportation state analysis.",
     version="1.0.0",
 )
@@ -44,7 +44,7 @@ app.add_middleware(
 def get_health():
     return {
         "status": "online",
-        "service": "Q-SHIELD Quantum Security Simulation Engine",
+        "service": "Qubit Crew Quantum Security Simulation Engine",
         "quantum_backend": "Qiskit Aer Simulator (Statevector / Measurement)",
         "classical_cryptography": "ECDSA-P256-SHA256",
         "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),

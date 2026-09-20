@@ -1,5 +1,5 @@
 """
-Q-SHIELD: Quantum-Inspired Cyber Threat Detection
+Qubit Crew: Quantum-Inspired Cyber Threat Detection
 Unified Server Launcher
 Runs FastAPI backend + built React frontend on http://127.0.0.1:8000
 """
@@ -14,7 +14,7 @@ if backend_path not in sys.path:
 
 if __name__ == "__main__":
     print("=" * 70)
-    print("  Q-SHIELD: Quantum-Inspired Cyber Threat Detection Platform")
+    print("  Qubit Crew: Quantum-Inspired Cyber Threat Detection Platform")
     print("  Quantum Simulator: Qiskit Aer | Classical Crypto: ECDSA-P256")
     print("  Console URL: http://127.0.0.1:8000")
     print("=" * 70)

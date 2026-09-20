@@ -1,5 +1,5 @@
 """
-Q-SHIELD Classical Cryptography Engine
+Qubit Crew Classical Cryptography Engine
 Simulates digital signatures using standard ECDSA over secp256r1 with SHA-256.
 DO NOT use real private keys or sensitive credentials; keys here are ephemeral prototypes.
 """

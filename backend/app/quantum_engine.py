@@ -1,5 +1,5 @@
 """
-Q-SHIELD Quantum Simulation Engine
+Qubit Crew Quantum Simulation Engine
 Simulates Bell-state entanglement, quantum teleportation, Pauli corrections,
 measurement statistics, and Total Variation Distance (TVD) anomaly detection
 using Qiskit and Qiskit Aer on classical hardware.

@@ -1,5 +1,5 @@
 """
-Q-SHIELD Attack Simulator
+Qubit Crew Attack Simulator
 Simulates threat scenarios by modifying observable parameters.
 CRITICAL: This module NEVER sends the attack label or scenario string
 to the Detection Engine. It only produces modified observable conditions.

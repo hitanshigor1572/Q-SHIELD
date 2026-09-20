@@ -1,4 +1,4 @@
-# Q-SHIELD: Quantum-Inspired Cyber Threat Detection for Digital Signature Security
+# Qubit Crew: Quantum-Inspired Cyber Threat Detection for Digital Signature Security
 
 A research-grade, explainable cybersecurity prototype combining classical digital signature verification (ECDSA over secp256r1 with SHA-256) with quantum Bell-state entanglement, quantum teleportation protocol simulation, and statistical anomaly detection (Total Variation Distance).
 

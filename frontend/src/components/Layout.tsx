@@ -68,7 +68,7 @@ export const Layout: React.FC = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
 
   const currentMeta = PAGE_META[location.pathname] || {
-    title: 'Q-SHIELD Security Console',
+    title: 'Qubit Crew Security Console',
     subtitle: 'Quantum-inspired cyber threat detection system',
   };
 
@@ -86,7 +86,7 @@ export const Layout: React.FC = () => {
             </div>
             <div>
               <div className="text-lg font-bold tracking-wider text-white flex items-center gap-1.5 font-mono">
-                Q-SHIELD
+                Qubit Crew
               </div>
               <div className="text-xs text-cyan-400/80 font-medium tracking-wide">
                 Quantum Security Lab
@@ -180,7 +180,7 @@ export const Layout: React.FC = () => {
             <div className="flex items-center justify-between pb-4 border-b border-slate-800">
               <div className="flex items-center space-x-2">
                 <Shield className="w-6 h-6 text-cyan-400" />
-                <span className="font-bold font-mono tracking-wider">Q-SHIELD</span>
+                <span className="font-bold font-mono tracking-wider">Qubit Crew</span>
               </div>
               <button
                 onClick={() => setMobileDrawerOpen(false)}

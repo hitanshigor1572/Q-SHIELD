@@ -1,5 +1,5 @@
 """
-Q-SHIELD: Quantum-Inspired Cyber Threat Detection for Digital Signature Security
+Qubit Crew: Quantum-Inspired Cyber Threat Detection for Digital Signature Security
 Data models and schemas
 """
 from typing import Dict, List, Optional, Any

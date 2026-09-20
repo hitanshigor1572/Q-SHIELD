@@ -1,5 +1,5 @@
 """
-Q-SHIELD Independent Threat Detection Engine
+Qubit Crew Independent Threat Detection Engine
 Evaluates ONLY raw observable conditions.
 Does NOT receive or depend on attack scenario labels.
 """

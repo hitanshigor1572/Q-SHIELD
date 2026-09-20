@@ -1,5 +1,5 @@
 """
-Q-SHIELD Storage & Session Memory
+Qubit Crew Storage & Session Memory
 Maintains simulation history, nonce caches, and session records in-memory.
 """
 import uuid

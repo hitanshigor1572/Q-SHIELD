@@ -1,1 +1,1 @@
-"""Q-SHIELD Backend Package"""
+"""Qubit Crew Backend Package"""

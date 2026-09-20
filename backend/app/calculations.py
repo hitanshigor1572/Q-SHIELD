@@ -1,5 +1,5 @@
 """
-Q-SHIELD Calculation Engine
+Qubit Crew Calculation Engine
 Generates explicit, explainable mathematical steps matching backend computations.
 """
 from typing import List, Dict, Any

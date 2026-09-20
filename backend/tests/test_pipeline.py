@@ -1,5 +1,5 @@
 """
-Unit tests for Q-SHIELD Backend
+Unit tests for Qubit Crew Backend
 Validates crypto, quantum engine, attack simulator, and detection engine.
 """
 from app.models import SimulationRequest
